@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/*------------- Header Top ----------*/
+
+.headerTop {
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #f8f8f8;
+  justify-content: space-between;
+}
+
+.headerTop__left {
+  text-transform: uppercase;
+  display: flex;
+  gap: 5px;
+}
+
+.headerTop__left > div > a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #a19e9c;
+}
+
+.headerTop__left > div {
+  color: rgb(211, 203, 203);
+}
+
+.headerTop__right {
+  display: flex;
+  gap: 20px;
+}
+
+.fa {
+  text-decoration: none;
+  color: #75b325;
+}
+
+/*----------- Header Middle ----------*/
+
+.headerMiddle {
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  justify-content: space-between;
+}
+
+.headerMiddle__left > img {
+  object-fit: contain;
+  width: 250px;
+}
+
+.headerMiddle__right {
+  display: flex;
+  gap: 30px;
+  padding-top: 10px;
+}
+
+.headerMiddle__rightCall {
+  display: flex;
+}
+
+.headerMiddle__rightCall > div > i {
+  font-size: 2rem;
+  margin-right: 20px;
+}
+
+.headerMiddle__rightLocation {
+  display: flex;
+  justify-content: center;
+}
+
+.headerMiddle__rightLocation > div > i {
+  font-size: 2rem;
+  margin-right: 20px;
+}
+
+.headerMiddle__rightLocation > div > div > span {
+  position: relative;
+  top: 6px;
+}
+
+.headerMiddle__rightApply > button {
+  padding: 10px;
+  border: 2px solid #68ae02;
+  color: #68ae02;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.headerMiddle__rightApply > button:hover {
+  background-color: whitesmoke;
+  transition: 0.2s;
+}
+
+/*--------- Header Bottom ----------*/
+
+.headerBottom {
+  background-color: #79b530;
+}
+
+.headerBottom__links {
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  justify-content: space-between;
+}
+
+.headerBottom__links > div > a {
+  color: #ffffff;
+  font-size: small;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.headerBottom__links > div > a > i {
+  color: #ffffff;
+}
+
+/*---------- Main Body ----------*/
+
+.mainBody {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url(./assets/images/banner-image.jpg);
+  background-repeat: no-repeat;
+  height: 80vh;
+  position: relative;
+}
+
+.mainBody__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.mainBody__text > h1 {
+  color: #ffffff;
+  font-size: 35px;
+  text-align: center;
+}
+
+.mainBody__text > p {
+  color: #ffffff;
+  text-align: center;
+}
+
+.mainBody__textButtons {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.mainBody__textButtons > div > button {
+  background-color: transparent;
+  text-transform: uppercase;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.mainBody__textButtons > div > button:hover {
+  background-color: #79b530;
+  transition: 0.2s;
+  border: 2px solid #79b530;
+}
+
+/*------ Cards ------*/
+
+.cards {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -50px;
+  color: #ffffff;
+}
+
+.card1,
+.card2,
+.card3,
+.card4 {
+  width: 200px;
+  height: 200px;
+  padding: 30px;
+}
+
+.card1 {
+  background-color: #4886ff;
+  text-align: center;
+}
+
+.card1 > i {
+  font-size: 40px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.card1 > p {
+  margin-top: 20px;
+}
+
+.card2 {
+  background-color: #ff6f6f;
+  text-align: center;
+}
+
+.card2 > i {
+  font-size: 40px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.card2 > p {
+  margin-top: 20px;
+}
+
+.card3 {
+  background-color: #b5d56a;
+  text-align: center;
+}
+
+.card3 > i {
+  font-size: 40px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.card3 > p {
+  margin-top: 20px;
+}
+
+.card4 {
+  background-color: #fa8147;
+  text-align: center;
+}
+
+.card4 > i {
+  font-size: 40px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.card4 > p {
+  margin-top: 20px;
+}
