@@ -1,7 +1,16 @@
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
+  width: 100%;
 }
 
 /*------------- Header Top ----------*/
@@ -192,8 +201,8 @@
 .card2,
 .card3,
 .card4 {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   padding: 30px;
 }
 
